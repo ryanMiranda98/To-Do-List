@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- title -->
+	<title>To Do List</title>
+
+	<!-- css links -->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<!-- js links -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.js"></script>	
+</head>
+<body>
+	<div class="container">
+		<h1>To-Do List<i class="fas fa-plus"></i></h1>
+
+		<input type="text" name="addtask" placeholder="ADD NEW TASK" id="addTask">
+
+		<ul class="list">
+			<li><span id="delete"><i class="fas fa-trash-alt"></i></span>Buy books</li>
+			<li><span id="delete"><i class="fas fa-trash-alt"></i></span>Do laundry</li>
+			<li><span id="delete"><i class="fas fa-trash-alt"></i></span>Feed the dogs</li>
+			<li><span id="delete"><i class="fas fa-trash-alt"></i></span>Doctor's appointment</li>
+		</ul>
+	</div>
+
+	<script src="js/todo.js"></script>
+</body>
+</html>
